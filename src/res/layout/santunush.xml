@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/teg" android:id="@+id/lysantunush" android:layout_height="fill_parent" android:layout_width="fill_parent">
+  
+<LinearLayout
+    android:id="@+id/scr_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/lykontrol"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20px" >
+<ImageView android:id="@+id/imvwsan" 
+android:layout_alignParentTop="true"
+android:background="@drawable/imnumber20" 
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_width="fill_parent"
+android:layout_marginBottom="10px"
+ android:layout_height="250dp">
+</ImageView>
+
+<ImageButton 
+android:background="@drawable/number6" 
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:id="@+id/imbtsan"
+android:layout_height="fill_parent"
+  android:layout_width="fill_parent">
+</ImageButton>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/lykontrol"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/button_bg1"
+    android:gravity="fill_horizontal|center"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp" >
+
+<ImageButton
+    android:id="@+id/bt1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+     android:src="@drawable/dice_src"
+      android:background="@drawable/button_gradient_bg"/>
+
+<ImageButton android:id="@+id/bt2"
+       android:layout_height="100dp"
+         android:layout_width="100dp"
+           android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+             android:src="@drawable/sign_left_src"
+              android:background="@drawable/button_gradient_bg"/>
+<ImageButton android:id="@+id/bt3"
+      android:layout_gravity="center_horizontal"
+       android:layout_height="100dp"
+         android:layout_width="100dp"
+          android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:src="@drawable/sign_right_src"
+             android:background="@drawable/button_gradient_bg"/>
+<ImageButton android:id="@+id/bt4"
+      android:layout_gravity="center_horizontal"
+       android:layout_height="100dp"
+         android:layout_marginLeft="10dp"
+             android:layout_width="100dp"
+             android:layout_marginRight="10dp"
+              android:src="@drawable/gear_src"
+               android:background="@drawable/button_gradient_bg"/>
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">سان تونۇش</string>
+     <string name="widget_text">san tunush widget</string>
+     <string name="about_title">سان تونۇش</string>   
+    <string name="company_name">" ئۇيغۇر يۇمشاق دىتال ئىجادىيەت تورى"</string>
+    <string name="company_name_ug">"بىلكان ئېلېكتىرون پەن- تېخنىكا چەكلىك شىركىتى"</string>
+    <string name="web_name">www.bilkan.net</string>
+    <string name="version">"               نەشرى: 1.5.1 "</string>
+    
+<item type="id" name="lysantallash"></item>
+<color name="a">#8DEEEE</color>
+<color name="b">#556B2F</color>
+<color name="c">#8B0000</color>
+<color name="d">#000000</color>
+<color name="e">#B9D3EE</color>
+<color name="f">#7D9EC0</color>
+<color name="g">#8B8970</color>
+<color name="h">#EE0000</color>
+<color name="i">#6E8B3D</color>
+<color name="j">#436EEE</color>
+<color name="k">#008B00</color>
+<color name="l">#BDB76B</color>
+<color name="m">#00CED1</color>
+<color name="n">#8B7500</color>
+<color name="o">#B0E0E6</color>
+<color name="p">#CD5B45</color>
+<color name="q">#FF6EB4</color>
+<color name="r">#20B2AA</color>
+<color name="s">#7CCD7C</color>
+<color name="t">#8B008B</color>
+<color name="u">#8B6914</color>
+<color name="w">#ADD8E6</color>
+<color name="x">#EE1289</color>
+<color name="y">#FF00FF</color>
+<color name="z">#FFFF00</color>
+
+    
+</resources>
+  

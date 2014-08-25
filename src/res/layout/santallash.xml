@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:id="@id/lysantallash" android:background="@drawable/teg" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_gravity="center_vertical|center">
+<LinearLayout 
+android:id="@+id/LinearLayout04" 
+android:layout_width="fill_parent"
+android:layout_alignParentTop="true" 
+ android:layout_above="@+id/LinearLayout01"
+
+android:orientation="vertical"  android:layout_height="fill_parent">
+<ImageView android:id="@+id/imvwtsan" 
+android:layout_width="fill_parent" android:layout_height="fill_parent">
+</ImageView>
+</LinearLayout>
+
+<LinearLayout 
+ android:id="@+id/LinearLayout01" 
+ android:layout_above="@+id/LinearLayout02"
+ android:layout_gravity="center"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="10px"
+android:gravity="center" android:layout_marginLeft="20px" android:layout_marginRight="20px">
+
+
+
+
+
+
+
+<Button android:id="@+id/Button01" android:typeface="normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF"  android:textSize="40dp" android:minWidth="100dp"></Button>
+<Button android:id="@+id/Button02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF"   android:textSize="40dp" android:minWidth="100dp"></Button>
+<Button android:id="@+id/Button03" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:textColor="#FFFFFF"  android:textSize="40dp" android:minWidth="100dp"></Button>
+
+
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02"
+android:layout_gravity="center"
+ android:layout_above="@+id/LinearLayout03"
+ android:layout_width="fill_parent"
+ android:layout_marginTop="10dp"
+ android:layout_height="wrap_content"
+android:gravity="center" android:layout_marginLeft="20px" android:layout_marginRight="20px">
+
+
+
+
+
+<Button android:id="@+id/Button06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF"  android:textSize="40dp" android:minWidth="100dp" android:layout_gravity="center"></Button>
+<Button android:id="@+id/Button07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF"   android:textSize="40dp" android:minWidth="100dp" android:layout_gravity="center"></Button>
+<Button android:id="@+id/Button08" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:textColor="#FFFFFF"  android:textSize="40dp" android:minWidth="100dp" android:layout_gravity="center"></Button>
+
+
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03"
+android:layout_gravity="center"
+android:layout_above="@+id/LinearLayout05"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="10px"
+android:layout_marginBottom="15px" android:gravity="center" android:layout_marginLeft="20px" android:layout_marginRight="20px">
+
+
+
+
+<Button android:id="@+id/Button11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="40dp" android:minWidth="100dp"></Button>
+<Button android:id="@+id/Button12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF"   android:textSize="40dp" android:minWidth="100dp"></Button>
+<Button android:id="@+id/Button13" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:textColor="#FFFFFF"  android:textSize="40dp" android:minWidth="100dp"></Button>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/LinearLayout05" 
+android:background="@drawable/button_bg1"
+android:layout_width="fill_parent"
+android:gravity="fill_horizontal|center"
+android:layout_alignParentBottom="true"
+android:paddingLeft="10px"
+android:paddingRight="10px"
+android:layout_height="wrap_content"
+ android:paddingBottom="2dp">
+<ImageButton
+    android:id="@+id/imbtsuntunush"
+    android:layout_width="100dp"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+     android:src="@drawable/dice_src" android:background="@drawable/button_gradient_bg"/>
+<ImageButton android:id="@+id/imbtnext"
+      android:layout_gravity="center_horizontal"
+       android:layout_height="fill_parent"
+         android:layout_width="100dp"
+          android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:src="@drawable/sign_right_src" android:background="@drawable/button_gradient_bg"/>
+<ImageButton android:id="@+id/imbtmenu"
+      android:layout_gravity="center_horizontal"
+       android:layout_height="fill_parent"
+         android:layout_marginLeft="10dp"
+             android:layout_width="100dp"
+             android:layout_marginRight="10dp"
+              android:src="@drawable/gear_src" android:background="@drawable/button_gradient_bg"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
